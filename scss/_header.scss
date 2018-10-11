@@ -1,2 +1,13 @@
 /* ====== HEADER  - Alvar====== */
-
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul li {
+    display: inline;
+}
+header ul li a {
+    text-decoration: none;
+    color: #7D7C7D;
+}
