@@ -307,18 +307,33 @@ body {
   background-color: #ff8163; }
 
 /* ====== NAVBAR - Alvar ====== */
+.logo {
+  margin-left: 2%; }
+
+li a.active {
+  border-bottom: 2px solid #666666;
+  font-weight: 300; }
+
+li a:hover {
+  color: white; }
+
+li {
+  padding: 15px; }
+
 /* ====== HEADER  - Alvar====== */
 .header-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4%; }
 
 header ul li {
   display: inline; }
 
 header ul li a {
   text-decoration: none;
-  color: #7D7C7D; }
+  color: #666666; }
 
 /* ====== MAIN ====== */
 /* ====== FOOTER - Priti ====== */
