@@ -14,21 +14,34 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
+  
+  <script>function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
    </head>
 <body>
   <header class="header-container">
     <div class="logo">
       <a href="index.html" title="Home page">
-        <img src="img/keyworkslogo.png"></a>
+        <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
     </div>
-      <nav>
-        <ul>
-          <li><a href="index.html" title="Home">Home</a></li>
-          <li><a href="index.html" title="Work">Work</a></li>
-          <li><a href="index.html" title="About">About</a></li>
-          <li><a href="index.html" title="Contact">Contact</a></li>
-        </ul>
-      </nav>
+    
+    <div class="navbar" id="myTopnav">
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="index.html" title="Work">Work</a></li>
+        <li><a href="index.html" title="About">About</a></li>
+        <li><a href="index.html" title="Contact">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="myFunctionIcon()"><i class="fa fa-bars"></i></a></li>
+      </ul>
+    </div>  
+      
   </header>
   <main>
     <h1>Hello world</h1>
@@ -38,5 +51,6 @@
   <footer>
    <small> designed with care by keyWorks. abc Copyright &copy; 2018 </small>
   </footer>
+  
 </body>
 </html>
