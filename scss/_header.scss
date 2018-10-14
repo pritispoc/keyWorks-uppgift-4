@@ -30,25 +30,19 @@ header ul li a {
    
     
     .header-container {
-    flex-direction: column;
+    flex-direction: row;
+    
    } 
    
    .logo {
-       display: block;
+       //display: inline;
        align-self: flex-start;
    } 
    
    .img-logo {
     width: 50%;
    }
-
-   /*
-   .icon {
-    float: right;
-    display: block;
-   }
-   */
-   
+ 
    header ul li a.icon {
     position: absolute;
     right: 10px;
@@ -61,5 +55,10 @@ header ul li a {
     display: flex;
     flex-direction: column;
   }
+  .item {
+      flex-grow: 1;
+  }
+
+
 
 }
