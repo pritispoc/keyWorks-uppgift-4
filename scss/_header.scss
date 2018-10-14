@@ -1,2 +1,64 @@
 /* ====== HEADER  - Alvar====== */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0;
+}
 
+header ul li {
+    display: inline;
+}
+header ul li a {
+    text-decoration: none;
+    color: $senary-color;
+}
+
+.img-logo {
+    margin-top: 0px;
+}
+
+.icon {
+    color: $septenary-color;
+    display: none;
+}
+
+
+// small screen
+@media screen and (max-width : 600px) {
+   
+    
+    .header-container {
+    flex-direction: row;
+    
+   } 
+   
+   .logo {
+       //display: inline;
+       align-self: flex-start;
+   } 
+   
+   .img-logo {
+    width: 50%;
+   }
+ 
+   header ul li a.icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+  }
+
+  header ul li a {
+    //display: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .item {
+      flex-grow: 1;
+  }
+
+
+
+}
