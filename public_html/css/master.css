@@ -693,7 +693,7 @@ h4 {
   float: left;
   position: relative;
   top: 18px;
-  margin-left: -36px;
+  margin-left: -35px;
 }
 
 #triangle-up h4 {
@@ -710,8 +710,7 @@ h4 {
   color: #666666;
   float: left;
   position: relative;
-  /* font-size:25px; */
-  top: -30px;
+  top: -28px;
   margin-left: -40px;
 }
 
