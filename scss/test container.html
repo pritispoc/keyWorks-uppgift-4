@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test container</title>
+    <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carou">
+    <link scr="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+    <style>
+      * {
+	margin: 0;
+	padding: 0;
+}
+
+.slider {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 5rem auto;
+	border: 1px dashed grey;
+	// width: 50%;
+	ul {
+		position: relative;
+		height: 300px;
+		// width: 100%;
+		li {
+			position: relative;
+			float: left;
+			display: block;
+			padding: 3rem;
+			width: 500px;
+			height: auto;
+			list-style: none;
+			
+			span {
+				display: block;
+				width: 100%;
+				text-align: justify;
+			}
+		}
+	}
+}
+
+.client {
+	text-align: right !important;
+	
+	&:before {
+		content: '\2014';
+	}
+}
+
+.quote {
+	border-left: 4px solid #000;
+	padding-left: .5rem;
+}
+
+.slider-nav {
+	.left,
+	.right {
+		position: absolute;
+		z-index: 999;
+		display: block;
+		top: 42.5%;
+		text-decoration: none;
+		color: #000;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+	
+	.left {
+		left: 0;
+	}
+	
+	.right {
+		right: 0;
+	}
+}    
+    </style>
+</head>
+<body>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+        <div class="slider">
+            <nav class="slider-nav">
+                <a href="#" class="left"><i class="fa fa-chevron-left"></i></a>
+                <a href="#" class="right"><i class="fa fa-chevron-right"></i></a>
+            </nav>
+            <ul>
+                <li>
+                    <span class="quote">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates et nemo cupiditate excepturi earum numquam aliquid nulla inventore, cum repellendus non doloremque quod odit nisi suscipit, perspiciatis aliquam ex totam.
+                    </span>
+                    <span class="client">
+                        John Appleseed
+                    </span>
+                </li>
+                <li>
+                    <span class="quote">
+                        Lorem ipsum fuck dolor sit amet, consectetur adipisicing elit. Voluptates et nemo cupiditate excepturi earum numquam aliquid nulla inventore, cum repellendus non doloremque quod odit nisi suscipit, perspiciatis aliquam ex totam.
+                    </span>
+                    <span class="client">
+                        John Appleseed
+                    </span>
+                <li>
+                    <span class="quote">
+                        Lorem ipsum lol dolor sit amet, consectetur adipisicing elit. Voluptates et nemo cupiditate excepturi earum numquam aliquid nulla inventore, cum repellendus non doloremque quod odit nisi suscipit, perspiciatis aliquam ex totam.
+                    </span>
+                    <span class="client">
+                        John Appleseed
+                    </span>
+                </li>
+            </ul>
+        </div>
+</body>
+</html>
