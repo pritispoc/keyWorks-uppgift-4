@@ -46,12 +46,12 @@ function calcAlpha() {
 
     // difference between start and stop
     const fadeLength = fadeStop - fadeStart;
-    // transparency level parameter alpha set based on current scroll level 
+    // transparency level parameter alpha set based on current scroll level
     if (scroll < fadeStart) {
         alpha = 0;
     } else if (scroll < fadeStop) {
         alpha = (scroll - fadeStart) / fadeLength;
-    } else { 
+    } else {
         alpha = 1;
     }
     // returns the transparency alpha level based on scroll position
@@ -67,7 +67,7 @@ function navToggle() {
 
     if (x.className === "topnav") {
         x.className += " dropped";
-        
+
     } else {
         x.className = "topnav";
     }
@@ -107,7 +107,7 @@ function navToggle() {
         y2.className = "animated";
         y3.className = "animated";
         y4.className = "animated";
-      
+
     }
 }
 
@@ -127,9 +127,4 @@ $(document).ready(function() {
 */
 //-----------fin carousell
 
-// End Alvar 
-
-
-
-
-
+// End Alvar
