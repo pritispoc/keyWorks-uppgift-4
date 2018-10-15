@@ -49,12 +49,6 @@ function mOut() {
     }
 }
 
-<<<<<<< HEAD
-
-
-
-//-------End Menu Alvar-------
-=======
 //---carrousell---------------
 /*
 $(document).ready(function() {
@@ -84,6 +78,5 @@ function myMap() {
             position: malmo,
             map: map
     });
-
+}
     // =================== END Contact page Google Maps - Svetla =========
->>>>>>> dee2516ebb3a62f5abde91c590c676d03568fb27
