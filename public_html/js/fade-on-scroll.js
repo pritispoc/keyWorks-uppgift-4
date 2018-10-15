@@ -128,3 +128,17 @@ $(document).ready(function() {
 //-----------fin carousell
 
 // End Alvar
+// =================== Contact page Google Maps - Svetla =========
+function myMap() {
+    var malmo = {lat: 55.611293, lng: 12.994258};
+    var map = new google.maps.Map(document.getElementById('map'), {
+  zoom: 15,
+  center: malmo
+  // mapTypeId: google.maps.MapTypeId.HYBRID
+    });
+    var marker = new google.maps.Marker({
+            position: malmo,
+            map: map
+    });
+
+    // =================== END Contact page Google Maps - Svetla =========
