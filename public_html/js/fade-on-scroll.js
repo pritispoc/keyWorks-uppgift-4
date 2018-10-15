@@ -49,7 +49,6 @@ function mOut() {
     }
 }
 
-<<<<<<< HEAD
 //---carrousell---------------
 /*
 $(document).ready(function() {
@@ -81,6 +80,3 @@ function myMap() {
     });
 
     // =================== END Contact page Google Maps - Svetla =========
-=======
-//-------End Menu Alvar-------
->>>>>>> d192b030b83d8fc32460e438e58612e529d0f0d9
