@@ -45,10 +45,16 @@ function mOut() {
         y2.className = "animated";
         y3.className = "animated";
         y4.className = "animated";
-
+        
     }
 }
 
+<<<<<<< HEAD
+
+
+
+//-------End Menu Alvar-------
+=======
 //---carrousell---------------
 /*
 $(document).ready(function() {
@@ -80,3 +86,4 @@ function myMap() {
     });
 
     // =================== END Contact page Google Maps - Svetla =========
+>>>>>>> dee2516ebb3a62f5abde91c590c676d03568fb27
