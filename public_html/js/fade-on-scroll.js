@@ -1,37 +1,27 @@
-/*fade on scroll
-autor: Priti
-created october 3 2018
-*/
-// defines how many  pixels  in the viewport breakpoint
-const breakpoint = $(".wrapper").width();
+/* This is the file where we have all javascript code. Each function should have a comment with the name of the author and purpose of the function*/
 
-/// define the initial width of the view port
-let previousWidth = $(window).width();
+function mOver() {
 
-selectAlphaMode(previousWidth);
+       var x = document.getElementById("firstShape");
+       if (x.className === "firstShape") {
+           x.className = "box loading";
+       } else {
+           x.className = "triangle-up loading";
+       }
+   }
 
-$(window).resize(function(){
-    let width =  $(window).width();
 
-    if((width < breakpoint && previousWidth >= breakpoint) || (width >= breakpoint && previousWidth < breakpoint)) {
-        selectAlphaMode(width);
-    }
-    previousWidth = width;
-});
 
-// toggle scroll bar transparency as per viewport width
-function selectAlphaMode(width) {
-    if (width < breakpoint) {
-        $(document).scroll().off();
-        setAlpha(1);
-    } else {
-        setAlpha(calcAlpha());
-        $(document).scroll(function(){
-        setAlpha(calcAlpha());
-        });
-    }
+function mOut() {
 
+   var x = document.getElementById("firstShape");
+   if (x.className === "firstShape") {
+       x.className = "triangle-up loading";
+   } else {
+       x.className = "box loading";
+   }
 }
+
 
 // selectAlphaMode(previousWidth);
 
@@ -71,7 +61,7 @@ function calcAlpha() {
 // $(document).scroll(function() {
 //     setAlpha(calcAlpha());
 // });
-
+/*
 function navToggle() {
     var x = document.getElementById("myTopnav");
 
@@ -83,7 +73,61 @@ function navToggle() {
     }
 }
 
+// menu
+<script>function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+  */
 
+  // Menu Alvar
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    // elem menu
+    var y1 = document.getElementById("home");
+    var y2 = document.getElementById("work");
+    var y3 = document.getElementById("contact");
+    var y4 = document.getElementById("about");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        y1.className += " slideInRight delay-2s";
+        y2.className += " slideInRight delay-2s";
+        y3.className += " slideInRight delay-2s";
+        y4.className += " slideInRight delay-2s";
+
+    } else {
+        x.className = "topnav";
+        y1.className = "animated slideOutRight delay-2s";
+        y1.className = "animated";
+        y2.className = "animated";
+        y3.className = "animated";
+        y4.className = "animated";
+      
+    }
+}
+
+//---carrousell---------------
+/*
+$(document).ready(function() {
+  $(".testimonial-carousel").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: true,
+    prevArrow: $(".testimonial-carousel-controls .prev"),
+    nextArrow: $(".testimonial-carousel-controls .next")
+  });
+});
+*/
+//-----------fin carousell
+
+// End Alvar 
 
 
 

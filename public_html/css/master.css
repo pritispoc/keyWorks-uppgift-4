@@ -330,7 +330,7 @@ template {
   display: none;
 }
 
-/* ====== GLOBAL  - Priti====== */
+/* ====== GLOBAL  -Home page related by Priti====== */
 html {
   scroll-behavior: smooth;
 }
@@ -339,10 +339,382 @@ body {
   font-family: "Oswald", "PT Sans", sans-serif;
   font-size: 1.1em;
   background-color: #ff8163;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
+h1, h2, p {
+  padding: 5%;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Oswald';
+  color: #666666;
+}
+
+h1 {
+  padding-bottom: 0;
+}
+
+h2 {
+  padding: 0;
+}
+
+p {
+  font-family: 'PT Sans';
+  color: white;
+  margin: auto;
+  width: 60%;
+  text-align: justify;
+}
+
+.box {
+  background-color: #d9d9d9;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 40vh;
+  height: 40vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.triangle-up {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+  border-left: 25vh solid transparent;
+  border-right: 20vh  solid transparent;
+  border-bottom: 50vh solid #d9d9d9;
+  overflow: hidden;
+}
+
+.loading {
+  -webkit-animation: rotation 30s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+#colorText {
+  animation: example1 10s infinite linear;
+}
+
+@keyframes example1 {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #ff8163;
+  }
+  50% {
+    color: #5f8868;
+  }
+  75% {
+    color: #766877;
+  }
+  100% {
+    color: #c78d05;
+  }
+}
+
+/* ====== End -Home page related by Priti====== */
+/* ====== Start - About page related by Priti====== */
+#hexagon {
+  width: 100vh;
+  height: 55vh;
+  background: #d9d9d9;
+  position: absolute;
+}
+
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25vh;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50vh solid transparent;
+  border-right: 50vh solid transparent;
+  border-bottom: 25vh solid lightgrey;
+}
+
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25vh;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50vh solid transparent;
+  border-right: 50vh solid transparent;
+  border-top: 25vh solid lightgrey;
+}
+
+/* ====== End About page related by Priti====== */
 /* ====== NAVBAR - Alvar ====== */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  color: #666666;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.om-grid-item1 {
+  grid-area: title1;
+  text-align: center;
+}
+
+.om-grid-item2 {
+  grid-area: cake1;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7;
+}
+
+.om-grid-item3 {
+  grid-area: cake2;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7;
+}
+
+.om-grid-item4 {
+  grid-area: cake3;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7;
+}
+
+@media screen and (max-width: 600px) {
+  /*.topnav a:not(:first-child) {display: none;}*/
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav {
+    flex-basis: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*.topnav.responsive {position: relative;}*/
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+  .topnav.responsive a {
+    margin: 0px;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive a img.img-logo {
+    width: 50%;
+  }
+}
+
+.testimonials {
+  overflow: hidden;
+  position: relative;
+  max-height: 300px;
+}
+
+.testimonials {
+  background: trasparent;
+}
+
+.one-slide,
+.testimonial,
+.message {
+  border: none !important;
+  outline: none !important;
+}
+
+.icon-overlay {
+  position: absolute;
+  opacity: 0.3;
+  right: 10%;
+  top: 0;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.carousel-controls .control {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.prev {
+  left: -2.25rem;
+}
+
+.next {
+  right: -2.25rem;
+}
+
+#home {
+  text-decoration: none;
+}
+
+#work {
+  text-decoration: none;
+}
+
+#contact {
+  text-decoration: none;
+}
+
+#about {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    max-height: 700px;
+  }
+  .icon-overlay {
+    height: 300px;
+    top: calc(50% - 150px);
+  }
+  .carousel-controls .control {
+    width: 25px;
+    height: 25px;
+    top: inherit;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .control i {
+    font-size: .7rem;
+  }
+  .testimonials .message {
+    font-size: 1rem;
+  }
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+}
+
 /* ====== HEADER  - Alvar====== */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0;
+}
+
+.container {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.img-logo {
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 70%;
+}
+
+.icon {
+  color: white;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: row;
+  }
+  .logo {
+    align-self: flex-start;
+  }
+  .img-logo {
+    width: 50%;
+  }
+  header ul li a.icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+  }
+  header ul li a {
+    display: flex;
+    flex-direction: column;
+  }
+  .item {
+    flex-grow: 1;
+  }
+}
+
 /* ====== MAIN ====== */
 /* ====== FOOTER - Priti ====== */
 footer {
