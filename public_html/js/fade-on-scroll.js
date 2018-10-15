@@ -1,5 +1,5 @@
 /* This is the file where we have all javascript code. Each function should have a comment with the name of the author and purpose of the function*/
-
+//-----Priti------
 function mOver() {
 
        var x = document.getElementById("firstShape");
@@ -21,45 +21,9 @@ function mOut() {
        x.className = "box loading";
    }
 }
+//-----Priti------
 
-
-// selectAlphaMode(previousWidth);
-
-function setAlpha(alpha) {
-    $("nav").css("background-color","rgba(0, 0, 0, " + alpha + ")");
-}
-
-
-// setAlpha(0.5);
-
-function calcAlpha() {
-
-    let alpha = 0;
-    // defines a variable for how long to go up in the html document
-     // calling the jquery function to pick current scroll location
-    let scroll = $(document).scrollTop();
-    //at which pixel does the fade start begin
-    const fadeStart = 0;
-
-    //at which pixel does the fade stop
-    const fadeStop = 200;
-
-    // difference between start and stop
-    const fadeLength = fadeStop - fadeStart;
-    // transparency level parameter alpha set based on current scroll level
-    if (scroll < fadeStart) {
-        alpha = 0;
-    } else if (scroll < fadeStop) {
-        alpha = (scroll - fadeStart) / fadeLength;
-    } else {
-        alpha = 1;
-    }
-    // returns the transparency alpha level based on scroll position
-    return alpha;
-}
-
-
-  // Menu Alvar
+  // --------Menu Alvar------
   function myFunction() {
     var x = document.getElementById("myTopnav");
     // elem menu
@@ -85,4 +49,4 @@ function calcAlpha() {
     }
 }
 
-// End Alvar
+//-------End Menu Alvar-------
