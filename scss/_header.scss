@@ -38,22 +38,22 @@ header ul li a {
 
 // small screen
 @media screen and (max-width : 600px) {
-   
-    
+
+
     .header-container {
     flex-direction: row;
-    
-   } 
-   
+
+   }
+
    .logo {
        //display: inline;
        align-self: flex-start;
-   } 
-   
+   }
+
    .img-logo {
     width: 50%;
    }
- 
+
    header ul li a.icon {
     position: absolute;
     right: 10px;

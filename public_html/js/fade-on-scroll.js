@@ -6,7 +6,7 @@ function mOver() {
        if (x.className === "firstShape") {
            x.className = "box loading";
        } else {
-           x.className = "triangle-up loading";
+           x.className = "triangle loading";
        }
    }
 
@@ -16,7 +16,7 @@ function mOut() {
 
    var x = document.getElementById("firstShape");
    if (x.className === "firstShape") {
-       x.className = "triangle-up loading";
+       x.className = "triangle loading";
    } else {
        x.className = "box loading";
    }
@@ -45,7 +45,7 @@ function mOut() {
         y2.className = "animated";
         y3.className = "animated";
         y4.className = "animated";
-        
+
     }
 }
 
