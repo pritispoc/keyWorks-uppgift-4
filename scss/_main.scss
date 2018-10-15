@@ -6,6 +6,16 @@
   height:500px;
   }
 
+  a[href^="tel:"] {
+    color: $senary-color;
+    text-decoration: none;
+  }
+
+  a[href^="mailto:"] {
+    color: $senary-color;
+    text-decoration: none;
+  }  
+
   /* ----------Shapes with the text----------- */
 
 
@@ -26,9 +36,8 @@
     color: $secondary-color;
     float: left;
     position:relative;
-    /* font-size:25px; */
-    top: 20px;
-    margin-left: -35px;
+    top: 18px;
+    margin-left: -37px;
   }
 
   #triangle-up h4 {
@@ -37,8 +46,7 @@
     color: $tertiary-color;
     float: left;
     position:relative;
-    /* font-size:25px; */
-    top: -5px;
+    top: -3px;
     margin-left: -20px;
   }
 

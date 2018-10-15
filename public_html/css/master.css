@@ -666,6 +666,16 @@ header ul li a {
   height: 500px;
 }
 
+a[href^="tel:"] {
+  color: #666666;
+  text-decoration: none;
+}
+
+a[href^="mailto:"] {
+  color: #666666;
+  text-decoration: none;
+}
+
 /* ----------Shapes with the text----------- */
 h3 {
   text-align: center;
@@ -682,9 +692,8 @@ h4 {
   color: #ff8163;
   float: left;
   position: relative;
-  /* font-size:25px; */
-  top: 20px;
-  margin-left: -35px;
+  top: 18px;
+  margin-left: -37px;
 }
 
 #triangle-up h4 {
@@ -692,8 +701,7 @@ h4 {
   color: #5f8868;
   float: left;
   position: relative;
-  /* font-size:25px; */
-  top: -5px;
+  top: -3px;
   margin-left: -20px;
 }
 
