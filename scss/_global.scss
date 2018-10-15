@@ -11,3 +11,123 @@ body {
 
 }
 
+h1, h2, p {
+
+    padding: 5%;
+    text-align: center;
+
+}
+
+h1, h2 {
+    font-family: 'Oswald';
+    color: #666666;
+
+}
+
+h1 {
+  padding-bottom: 0;
+}
+h2 {
+  padding: 0;
+}
+
+
+p{
+    font-family: 'PT Sans';
+    color: $septenary-color;
+    margin:  auto;
+    width: 60%;
+    text-align: justify;
+
+}
+
+
+.box {
+    background-color: $primary-color;
+    color: $septenary-color;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25vw;
+    width: 50vh;
+    height: 50vh;
+    z-index: -1;
+
+  }
+
+  .triangle-up {
+    margin-top: 10px;
+    z-index: -1;
+	width: 0;
+	height: 0;
+	border-left: 25vh solid transparent;
+	border-right: 20vh  solid transparent;
+    border-bottom: 50vh solid $primary-color;
+    margin:  auto;
+
+
+}
+
+
+
+
+.loading {
+    -webkit-animation: rotation 30s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+
+    }
+
+#colorText {
+
+    animation: example1 10s infinite linear;
+
+}
+@keyframes example1 {
+
+  0%   {color: $septenary-color;}
+  25%  {color: $secondary-color;}
+  50%  {color: $tertiary-color;}
+  75%  {color: $quaternary-color;}
+  100% {color: $quinary-color;}
+}
+
+
+
+#hexagon {
+    width: 100vh;
+    height: 55vh;
+    background: $primary-color;
+    position: absolute;
+
+
+  }
+  #hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25vh;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50vh solid transparent;
+    border-right: 50vh solid transparent;
+    border-bottom: 25vh solid lightgrey;
+  }
+  #hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25vh;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50vh solid transparent;
+    border-right: 50vh solid transparent;
+    border-top: 25vh solid lightgrey;
+
+  }
