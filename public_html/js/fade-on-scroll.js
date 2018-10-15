@@ -4,9 +4,9 @@ function mOver() {
 
        var x = document.getElementById("firstShape");
        if (x.className === "firstShape") {
-           x.className = "box ";
+           x.className = "box loading";
        } else {
-           x.className = "triangle-up ";
+           x.className = "triangle-up loading";
        }
    }
 

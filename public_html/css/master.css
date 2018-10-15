@@ -339,6 +339,8 @@ body {
   font-family: "Oswald", "PT Sans", sans-serif;
   font-size: 1.1em;
   background-color: #ff8163;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
 h1, h2, p {
@@ -371,22 +373,27 @@ p {
   background-color: #d9d9d9;
   color: white;
   position: absolute;
-  margin-top: 10px;
-  margin-left: 25vw;
-  width: 50vh;
-  height: 50vh;
+  top: 30%;
+  left: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 40vh;
+  height: 40vh;
   z-index: -1;
+  overflow: hidden;
 }
 
 .triangle-up {
-  margin-top: 10px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
   z-index: -1;
-  width: 0;
-  height: 0;
   border-left: 25vh solid transparent;
   border-right: 20vh  solid transparent;
   border-bottom: 50vh solid #d9d9d9;
-  margin: auto;
+  overflow: hidden;
 }
 
 .loading {
@@ -579,7 +586,6 @@ header ul li a {
 /* ====== MAIN ====== */
 /* ====== FOOTER - Priti ====== */
 footer {
-  margin-top: 90vh;
   color: white;
   text-align: center;
   padding: 1em;
