@@ -693,7 +693,7 @@ h4 {
   float: left;
   position: relative;
   top: 18px;
-  margin-left: -35px;
+  margin-left: -33px;
 }
 
 #triangle-up h4 {
@@ -701,7 +701,7 @@ h4 {
   color: #5f8868;
   float: left;
   position: relative;
-  top: -7px;
+  top: -11px;
   margin-left: -20px;
 }
 
@@ -710,8 +710,8 @@ h4 {
   color: #666666;
   float: left;
   position: relative;
-  top: -28px;
-  margin-left: -40px;
+  top: -38px;
+  margin-left: -42px;
 }
 
 #square h4 {
@@ -721,7 +721,7 @@ h4 {
 #hexagon h4,
 #hexagon h3 {
   line-height: 15px;
-  top: 5px;
+  top: 4px;
 }
 
 #triangle-up {
@@ -785,7 +785,7 @@ input[type=text], select, textarea {
   /* Full width */
   padding: 12px;
   /* Some padding */
-  border: 1px solid #ccc;
+  border: 1px solid #666666;
   /* Gray border */
   border-radius: 4px;
   /* Rounded borders */
@@ -801,7 +801,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #5f8868;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -817,7 +817,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
   padding: 20px;
   margin-top: 60px;
   /* background-color: #c6a530; */
