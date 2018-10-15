@@ -1,0 +1,115 @@
+<!-- Contact page - Svetla -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>keyWorks - Website Development Agency</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans" rel="stylesheet">
+  <!--animate Alvar-->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/fade-on-scroll.js" defer></script>
+
+   </head>
+<body>
+  <header class="header-container">
+    <div class="logo">
+      <a href=index.html title="Home page">
+        <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
+    </div>
+    <div class="topnav" id="myTopnav">
+
+          <a href=index.html class="animted" id="home">Home</a>
+          <a href=work.html class="animated" id="work">Work</a>
+          <a href=contact.html class="animated" id="contact">Contact</a>
+          <a href=about.html class="animated" id="about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+    </div>
+
+    </div>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+
+      <div id="map">We are here</div>
+      
+      <div class="grid-image-container2">
+
+
+        <!-- About the figures with text -->
+        <div class ="grid-item" >
+          <div id="triangle-up">
+            <h3><span>Address:</span></h3>
+            <h4>MINC</h4>
+            <h4><span>Anckargripsgatan Malmö</span></h4>
+          </div>
+        </div>
+
+          <div class ="grid-item" >
+          <div id="square">
+            <h3><span>Phone:</span></h3>
+            <h4><span>
+              <i class="material-icons">
+              local_phone</i><br>
+              <a href="tel:+46-555-555-5555" rel="nofollow">07 555-555-5555</a> <!--A snippet to make direct call-->
+            </span></h4>
+           </div><!--End id-->
+        </div> <!--End grid-item-->
+        
+        <div class ="grid-item" >
+          <div id="hexagon">
+            <h3><span>E-mail:</span></h3>
+            <h4><span>
+              <i class="material-icons">
+              email</i>
+              <a href="mailto:studio.exklusiv@info.com" target="_blank"><br> KeyWorks</a> <!--A snippet to send email-->
+            </span></h4>
+          </div> <!--End id-->
+         </div><!--End grid-item1-->
+      </div> <!--End Container2-->
+        <!-- end figures with text -->
+      
+
+        <!-- FOR the SUBSCRIPTION FORM -->
+      
+      <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your e-mail..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write your text.." style="height:100px"></textarea>
+        
+            <!-- <input type="submit" value="Submit">  -->
+            <form method="post" action="mailto:studio.exklusiv@gmail.com" >
+                <input type="submit" value="Send" /> 
+            </form>
+      
+      </div>
+    </div> <!--div closes class="grid-image-container"-->
+
+    <!-- END Contact page Svetla -->
+
+  </main>
+
+  <footer>
+   <small> designed with care by keyWorks <sup>TM</sup>  . &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
+  </footer>
+
+</body>
+</html>

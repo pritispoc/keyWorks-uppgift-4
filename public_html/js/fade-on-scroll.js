@@ -49,7 +49,41 @@ function mOut() {
     }
 }
 
+<<<<<<< HEAD
 
 
 
 //-------End Menu Alvar-------
+=======
+//---carrousell---------------
+/*
+$(document).ready(function() {
+  $(".testimonial-carousel").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: true,
+    prevArrow: $(".testimonial-carousel-controls .prev"),
+    nextArrow: $(".testimonial-carousel-controls .next")
+  });
+});
+*/
+//-----------fin carousell
+
+// End Alvar
+// =================== Contact page Google Maps - Svetla =========
+function myMap() {
+    var malmo = {lat: 55.611293, lng: 12.994258};
+    var map = new google.maps.Map(document.getElementById('map'), {
+  zoom: 15,
+  center: malmo
+  // mapTypeId: google.maps.MapTypeId.HYBRID
+    });
+    var marker = new google.maps.Marker({
+            position: malmo,
+            map: map
+    });
+
+    // =================== END Contact page Google Maps - Svetla =========
+>>>>>>> dee2516ebb3a62f5abde91c590c676d03568fb27
