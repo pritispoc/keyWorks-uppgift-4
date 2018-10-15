@@ -67,35 +67,9 @@ function calcAlpha() {
     // returns the transparency alpha level based on scroll position
     return alpha;
 }
-// jquery call for capturing live scroll event
-// $(document).scroll(function() {
-//     setAlpha(calcAlpha());
-// });
-/*
-function navToggle() {
-    var x = document.getElementById("myTopnav");
 
-    if (x.className === "topnav") {
-        x.className += " dropped";
-        
-    } else {
-        x.className = "topnav";
-    }
-}
 
-// menu
-<script>function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
-      }
-  }
-  </script>
-  */
-
-  // Menu Alvar
+  // Menu Alvar-----
   function myFunction() {
     var x = document.getElementById("myTopnav");
     // elem menu
@@ -120,22 +94,6 @@ function navToggle() {
       
     }
 }
-
-//---carrousell---------------
-/*
-$(document).ready(function() {
-  $(".testimonial-carousel").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    arrows: true,
-    prevArrow: $(".testimonial-carousel-controls .prev"),
-    nextArrow: $(".testimonial-carousel-controls .next")
-  });
-});
-*/
-//-----------fin carousell
 
 // End Alvar 
 
