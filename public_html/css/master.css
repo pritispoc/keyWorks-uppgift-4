@@ -496,6 +496,28 @@ p {
   display: none;
 }
 
+.om-grid-item1 {
+  grid-area: title1;
+  text-align: center; }
+
+.om-grid-item2 {
+  grid-area: cake1;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7; }
+
+.om-grid-item3 {
+  grid-area: cake2;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7; }
+
+.om-grid-item4 {
+  grid-area: cake3;
+  text-align: center;
+  padding: 1.5vw;
+  background-color: #fbfaf7; }
+
 @media screen and (max-width: 600px) {
   /*.topnav a:not(:first-child) {display: none;}*/
   .topnav a {
@@ -518,8 +540,10 @@ p {
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
-    top: 0;
-  }
+
+    top: 7px; }
+
+
   .topnav.responsive a {
     margin: 0px;
     float: none;
@@ -527,9 +551,85 @@ p {
     text-align: center;
   }
   .topnav.responsive a img.img-logo {
-    width: 50%;
-  }
-}
+
+    width: 50%; } }
+.testimonials {
+  overflow: hidden;
+  position: relative;
+  max-height: 300px; }
+
+.testimonials {
+  background: trasparent; }
+
+.one-slide,
+.testimonial,
+.message {
+  border: none !important;
+  outline: none !important; }
+
+.icon-overlay {
+  position: absolute;
+  opacity: 0.3;
+  right: 10%;
+  top: 0;
+  height: auto;
+  width: 100%;
+  max-width: 400px; }
+
+.carousel-controls .control {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  z-index: 1; }
+
+.prev {
+  left: -2.25rem; }
+
+.next {
+  right: -2.25rem; }
+
+#home {
+  text-decoration: none; }
+
+#work {
+  text-decoration: none; }
+
+#contact {
+  text-decoration: none; }
+
+#about {
+  text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    max-height: 700px; }
+
+  .icon-overlay {
+    height: 300px;
+    top: calc(50% - 150px); }
+
+  .carousel-controls .control {
+    width: 25px;
+    height: 25px;
+    top: inherit; }
+
+  .prev {
+    left: 0; }
+
+  .next {
+    right: 0; }
+
+  .control i {
+    font-size: .7rem; }
+
+  .testimonials .message {
+    font-size: 1rem; }
+
+  .testimonials h2 {
+    font-size: 1.5rem; } }
 
 /* ====== HEADER  - Alvar====== */
 .header-container {
@@ -539,6 +639,15 @@ p {
   align-items: center;
   margin-right: 0;
 }
+
+.container {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0; }
 
 header ul li {
   display: inline;
@@ -551,7 +660,9 @@ header ul li a {
 
 .img-logo {
   margin-top: 0px;
-}
+  margin-left: 10px;
+  width: 70%; }
+
 
 .icon {
   color: white;
