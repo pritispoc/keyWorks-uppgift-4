@@ -45,8 +45,11 @@ function mOut() {
         y2.className = "animated";
         y3.className = "animated";
         y4.className = "animated";
-
+        
     }
 }
+
+
+
 
 //-------End Menu Alvar-------
