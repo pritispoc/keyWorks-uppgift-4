@@ -1,37 +1,27 @@
-/*fade on scroll
-autor: Priti
-created october 3 2018
-*/
-// defines how many  pixels  in the viewport breakpoint
-const breakpoint = $(".wrapper").width();
+/* This is the file where we have all javascript code. Each function should have a comment with the name of the author and purpose of the function*/
 
-/// define the initial width of the view port
-let previousWidth = $(window).width();
+function mOver() {
 
-selectAlphaMode(previousWidth);
+       var x = document.getElementById("firstShape");
+       if (x.className === "firstShape") {
+           x.className = "box ";
+       } else {
+           x.className = "triangle-up ";
+       }
+   }
 
-$(window).resize(function(){
-    let width =  $(window).width();
 
-    if((width < breakpoint && previousWidth >= breakpoint) || (width >= breakpoint && previousWidth < breakpoint)) {
-        selectAlphaMode(width);
-    }
-    previousWidth = width;
-});
 
-// toggle scroll bar transparency as per viewport width
-function selectAlphaMode(width) {
-    if (width < breakpoint) {
-        $(document).scroll().off();
-        setAlpha(1);
-    } else {
-        setAlpha(calcAlpha());
-        $(document).scroll(function(){
-        setAlpha(calcAlpha());
-        });
-    }
+function mOut() {
 
+   var x = document.getElementById("firstShape");
+   if (x.className === "firstShape") {
+       x.className = "triangle-up loading";
+   } else {
+       x.className = "box loading";
+   }
 }
+
 
 // selectAlphaMode(previousWidth);
 
