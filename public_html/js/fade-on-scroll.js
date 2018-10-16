@@ -3,10 +3,10 @@
 function mOver() {
 
        var x = document.getElementById("firstShape");
-       if (x.className === "firstShape") {
-           x.className = "box loading";
+      if (x.className === "firstShape") {
+           x.className = "triangle1 loading";
        } else {
-           x.className = "triangle loading";
+           x.className = "box loading";
        }
    }
 
@@ -15,10 +15,10 @@ function mOver() {
 function mOut() {
 
    var x = document.getElementById("firstShape");
-   if (x.className === "firstShape") {
-       x.className = "triangle loading";
-   } else {
+  if (x.className === "firstShape") {
        x.className = "box loading";
+   } else {
+       x.className = "triangle1 loading";
    }
 }
 //-----Priti------
