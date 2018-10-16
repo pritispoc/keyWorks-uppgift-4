@@ -14,143 +14,66 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
+  <!--animate Alvar-->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-  <script>function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-        
-    }
-    </script>
    </head>
-<body id="body">
+<body class="backgroundWork">
   <header class="header-container">  
     <div class="logo">
       <a href=index.html title="Home page">
         <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
     </div> 
     <div class="topnav" id="myTopnav">
-        <a href=index.html class="active">Home</a>
-        <a href="#news">Work</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href=index.html class="animted" id="home">Home</a>
+        <a href=contact.html class="animated" id="contact">Contact</a>
+        <a href=about.html class="animated" id="about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
-    </div>  
+    </div>
+    <!--<a href=work.html class="animated" id="work">Work</a>-->
+    <!--<style>.topnav a:second-child {display: none;}</style>-->  
   </header>
-  <main id='main'>
+  <main id='work-main'>
     <h1>Hello Work Page</h1>
     <!--photos container-->
-    <div class="container">
+    <div class="work-container">
         <div class="flex-item">
             <img src="img/apple-computer-decor-326502.jpg" alt="image of a dessert" class="img-fluid">
             <!--<h3 class="sortiment-font">Bakelser</h3>-->
-            <p class="sortiment-text">Våra bakelser är alltid färska och bakade samma dag som de serveras. Vi har alltid ett stort sortiment med olika smaker för att passa det du är sugen på just idag.</p>
+            <p class="sortiment-text">Leveraging our core programming expertise in quantitative angile methods, KeyWorks offers a unique combination of powerful agile and practical programming experience to help you make better web-projects.</p>
 
         </div>
         <div class="flex-item">
             <img src="img/apple-computer-decor-326502.jpg" alt="image of chocolate chip cookis and a coffee." class="img-fluid">
             <!--<h3 class="sortiment-font">Kakor</h3>-->
-            <p class="sortiment-text">Våra bakelser är alltid färska och bakade samma dag som de serveras. Vi har alltid ett stort sortiment med olika smaker för att passa det du är sugen på just idag.</p>
+            <p class="sortiment-text">One of our core competencies is versatility. Whatever your needs may be, our diverse team of software engineers, designers, and testers who specialize in every major software development platform available will make your software dreams a reality.</p>
         </div>
         <div class="flex-item">
             <img src="img/apple-computer-decor-326502.jpg" alt="picture of a white meringue cake with fruit pieces and chocolate hearts on" class="img-fluid">
             <!--<h3 class="sortiment-font">Tårtor</h3>-->
-            <p class="sortiment-text">Våra bakelser är alltid färska och bakade samma dag som de serveras. Vi har alltid ett stort sortiment med olika smaker för att passa det du är sugen på just idag.</p>
+            <p class="sortiment-text">KeyWorks code matters to us and it should matter to you. Not only will your code be built to meet your current needs, it will be built to facilitate future needs.</p>
         </div>
     </div> <!--container> -->
-    <style>
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            /*margin-left: 10px;*/
-            background-color: transparent;
-            }
-        .sortiment-text {
-            margin-left: 1em;
-            margin-right: 1em;
-            text-align: left;
-            max-height: 150px;
-        }
-        .sortiment-font {
-            margin-left: 1em;
-        }
-        .img-fluid {
-           max-width: 100%;
-           justify-content: center;
-           padding: 10px;
-        }
-
-        .img-size {
-            height: 100px;
-        }
-        .flex-intem {
-            padding: 10px;
-        }
-
-        @media screen and (max-width : 600px) {
-            .container {
-            display: block;
-            flex-direction: column;
-            justify-content: center;
-        }
-            
-        }
-    </style> 
+  
     <!--slider-->
-    <ul id="sliders">
-        <li class="slide showing">Silde 1</li>
-        <li class="slide">Slide 2</li>
-        <li class="slide">Slide 3</li>
-        <li class="slide">Slide 4</li>
-        <li class="slide">Slide 5</li>
-    </ul>
-    <style>
-    #slides {
-        position: relative;
-        height: 150px;
-        padding: 0px;
-        margin: 0px;
-        list-style-type: none;
-    }
-    .slide {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        z-index: 1;
-        -webkit-transition: opacity ls;
-        -moz-transition: opacity ls;
-        -o-transition: opacity ls;
-        transition: opacity ls;
-    }
-    .showing{
-        opacity: 1;
-        z-index: 2;
-    }
+    <ul id="slides">
+            <li class="slide"><p>"I've been working with KeyWorks team for the last 5 years now. I love their service! They have evolved improving the services making them my number one choice for my clients websites."<small>  Josh Mackey, Mar 12, 2018</small></p></li>
+            <li class="slide showing"><p>"Overall, in respect with offer, terms, and user experience KeyWorks is currently the greatest programming service for web business entrepreneurship"<small>  Nikola Pantic, Dec 11, 2017</small></p></li>
+            <li class="slide"><p>"Efficient and good customer service."<small>  Craig Kurumada, Feb 02, 2017</small></p></li>
+            <li class="slide"><p>"Worked with KeyWorks for many many years and always had great helpful service."<small>  Michael Harrison, Yorkshire United Kingdom, Jan 25, 2017</small></p></li>
+            <li class="slide"><p>"Excellent programming service with very reasonable fees. Pros: Fee structure Cons: None"<small>  Peter Ronai @ midvalleytravelclub.org, Oregon, Jan 02, 2017</small></p></li>
+        </ul>
+    <!--sliders-->
     
-    .slide {
-        font-size: 40px;
-        padding: 40px;
-        box-sizing: border-box;
-        background: #333;
-        color: #fff;
-        
-    }
-
-    </style>
   </main>
-  <!--
+  
   <footer>
-   <small> designed with care by keyWorks. abc Copyright &copy; 2018 </small>
-  </footer>  -->
+      <div class="wrapper">
+       <small> designed with care by keyWorks <sup>TM</sup>  . &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
+      </div>
+  </footer>
   
 </body>
 </html>
