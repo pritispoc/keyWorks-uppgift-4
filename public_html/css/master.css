@@ -845,7 +845,6 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-/* ----------END Contact page - Svetla ----------- */
 @media screen and (min-width: 600px) {
   /* ----------media Contact page - Svetla ----------- */
   .grid-master {
@@ -865,7 +864,8 @@ input[type=submit]:hover {
   .grid-item {
     display: grid;
     grid-template-columns: auto;
-    margin: 1em;
+    margin-top: 1em;
+    padding: 2em;
   }
 
   /* ---------- END media Contact page - Svetla ----------- */

@@ -190,7 +190,8 @@ margin-right: auto;
 float: center;
 padding: 10px;
 }
-  /* ----------END Contact page - Svetla ----------- */
+
+
 
   @media screen and (min-width: 600px) {
     /* ----------media Contact page - Svetla ----------- */
@@ -214,7 +215,8 @@ padding: 10px;
   .grid-item {
     display: grid;
     grid-template-columns: auto;
-    margin: 1em;
+    margin-top: 1em;
+    padding: 2em;
   }
     /* ---------- END media Contact page - Svetla ----------- */
 }
