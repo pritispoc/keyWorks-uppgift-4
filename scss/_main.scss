@@ -230,7 +230,9 @@ padding: 10px;
     /* ---------- END media Contact page - Svetla ----------- */
 }
 
+//_____________________________________________
 /*___________Start Work Page - Alvar ________*/
+//_____________________________________________
 .backgroundWork {
   background-color: $senary-color;
 }
@@ -240,31 +242,36 @@ padding: 10px;
 .work-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
   /*margin-left: 10px;*/
   background-color: transparent;
+  margin-top: 0px;
+  margin-left: 10px;
+  
   }
 .sortiment-text {
   margin-left: 1em;
   margin-right: 1em;
   text-align: left;
-  max-height: 150px;
+  max-height: 70%;
 }
 .sortiment-font {
   margin-left: 1em;
 }
-.img-fluid {
+.work-img-fluid {
  max-width: 100%;
  justify-content: center;
  padding: 10px;
+ height: 250px;
 }
 
 .img-size {
   height: 100px;
 }
-.flex-intem {
-  padding: 10px;
+.flex-item {
+  padding: 5px;
+  //margin: 10px;
 }
 
 @media screen and (max-width : 600px) {
