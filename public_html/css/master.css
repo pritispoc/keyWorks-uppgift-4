@@ -9,8 +9,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -18,8 +17,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -27,8 +25,7 @@ body {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -42,8 +39,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -53,8 +49,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -62,8 +57,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -75,16 +69,19 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -96,15 +93,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -115,16 +110,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -132,8 +124,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
    ========================================================================== */
@@ -153,8 +144,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -163,8 +153,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -173,8 +162,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
@@ -183,8 +171,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -194,8 +181,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -204,15 +190,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -232,22 +216,19 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
@@ -258,16 +239,14 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -277,15 +256,13 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -295,8 +272,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -304,15 +280,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
    ========================================================================== */
@@ -320,73 +294,60 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* ====== GLOBAL  -Home page related by Priti====== */
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Oswald", "PT Sans", sans-serif;
   font-size: 1.1em;
   background-color: #ff8163;
   min-height: 100vh;
-  max-width: 100vw;
-}
+  max-width: 100vw; }
 
 .aboutpage {
-  background-color: #5f8868;
-}
+  background-color: #5f8868; }
 
 h1, h2, p {
   padding: 5%;
-  text-align: center;
-}
+  text-align: center; }
 
 h1, h2 {
   font-family: 'Oswald';
-  color: #666666;
-}
+  color: #666666; }
 
 h1 {
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
 
 h2 {
-  padding: 0;
-}
+  padding: 0; }
 
 p {
   font-family: 'PT Sans';
   color: white;
   margin: auto;
   width: 60%;
-  text-align: justify;
-}
+  text-align: justify; }
 
 .heximg {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
 
 .triangleimg {
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
 
 .circleimg {
   -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-}
+  clip-path: circle(50% at 50% 50%); }
 
 .box {
   background-color: #d9d9d9;
@@ -399,8 +360,7 @@ p {
   width: 40vh;
   height: 40vh;
   z-index: -1;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .triangle1 {
   position: absolute;
@@ -412,18 +372,16 @@ p {
   border-left: 25vh solid transparent;
   border-right: 20vh  solid transparent;
   border-bottom: 50vh solid #d9d9d9;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .loading {
-  -webkit-animation: rotation 30s infinite linear;
-}
+  -webkit-animation: rotation 30s infinite linear; }
 
 @-webkit-keyframes rotation {
   from {
-    -webkit-transform: rotate(0deg);
-  }
+    -webkit-transform: rotate(0deg); }
   to {
+<<<<<<< HEAD
     -webkit-transform: rotate(359deg);
   }
 }
@@ -431,56 +389,61 @@ p {
 #colorText {
   animation: example1 10s infinite linear;
 }
+=======
+    -webkit-transform: rotate(359deg); } }
+#colorText {
+  animation: example1 10s infinite linear; }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 @keyframes example1 {
   0% {
-    color: white;
-  }
+    color: white; }
   25% {
-    color: #ff8163;
-  }
+    color: #ff8163; }
   50% {
-    color: #5f8868;
-  }
+    color: #5f8868; }
   75% {
-    color: #766877;
-  }
+    color: #766877; }
   100% {
+<<<<<<< HEAD
     color: #c78d05;
   }
 }
 
+=======
+    color: #c78d05; } }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 /* ====== End -Home page related by Priti====== */
 /* ====== Start - About page related by Priti====== */
 /* grid definition class related to about  page*/
 .about-staff-grid {
-  display: grid;
-}
+  display: grid; }
 
 .img-centered-stack {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 .about-grid-item {
-  text-align: justify;
-}
+  text-align: justify; }
 
 @media screen and (min-width: 600px) {
   .about-col-3 {
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
+=======
+    grid-template-columns: 1fr 1fr 1fr; } }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 /* ====== End About page related by Priti====== */
 /* ====== NAVBAR - Alvar ====== */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: transparent;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -490,28 +453,25 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
+  font-size: 17px; }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: transparent;
-  color: #666666;
-}
+  color: #666666; }
 
 /* Add an active class to highlight the current page */
 .active {
-  color: white;
-}
+  color: white; }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
-}
+  display: none; }
 
 @media screen and (max-width: 600px) {
   /*.topnav a:not(:first-child) {display: none;}*/
   .topnav a {
+<<<<<<< HEAD
     display: none;
   }
   .topnav a.icon {
@@ -533,10 +493,31 @@ p {
     right: 0;
     top: 7px;
   }
+=======
+    display: none; }
+
+  .topnav a.icon {
+    float: right;
+    display: block; }
+
+  .topnav {
+    flex-basis: 300px; } }
+@media screen and (max-width: 600px) {
+  /*.topnav.responsive {position: relative;}*/
+  .topnav.responsive {
+    position: relative; }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 7px; }
+
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
   .topnav.responsive a {
     margin: 0px;
     float: none;
     display: block;
+<<<<<<< HEAD
     text-align: center;
   }
   .topnav.responsive a img.img-logo {
@@ -544,14 +525,24 @@ p {
   }
 }
 
+=======
+    text-align: center; }
+
+  .topnav.responsive a img.img-logo {
+    width: 50%; } }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 /* ====== HEADER  - Alvar====== */
 .header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   margin-right: 0;
 }
+=======
+  margin-right: 0; }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 .container {
   display: -webkit-flex;
@@ -560,31 +551,32 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   margin-right: 0;
 }
+=======
+  margin-right: 0; }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 header ul li {
-  display: inline;
-}
+  display: inline; }
 
 header ul li a {
   text-decoration: none;
-  color: #666666;
-}
+  color: #666666; }
 
 .img-logo {
   margin-top: 0px;
   margin-left: 10px;
-  width: 70%;
-}
+  width: 70%; }
 
 .icon {
   color: white;
-  display: none;
-}
+  display: none; }
 
 @media screen and (max-width: 600px) {
   .header-container {
+<<<<<<< HEAD
     flex-direction: row;
   }
   .logo {
@@ -593,10 +585,21 @@ header ul li a {
   .img-logo {
     width: 50%;
   }
+=======
+    flex-direction: row; }
+
+  .logo {
+    align-self: flex-start; }
+
+  .img-logo {
+    width: 50%; }
+
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
   header ul li a.icon {
     position: absolute;
     right: 10px;
     top: 10px;
+<<<<<<< HEAD
     display: block;
   }
   header ul li a {
@@ -608,37 +611,41 @@ header ul li a {
   }
 }
 
+=======
+    display: block; }
+
+  header ul li a {
+    display: flex;
+    flex-direction: column; }
+
+  .item {
+    flex-grow: 1; } }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 /* ====== MAIN ====== */
 /*___________Start Contact Page - Svetla ________*/
 .backgroundContact {
-  background-color: #c78d05;
-}
+  background-color: #c78d05; }
 
 #map {
   width: 100%;
-  height: 500px;
-}
+  height: 500px; }
 
 a[href^="tel:"] {
   color: #666666;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a[href^="mailto:"] {
   color: #666666;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /* ----------Shapes with the text----------- */
 h3 {
   text-align: center;
-  color: #ff8163;
-}
+  color: #ff8163; }
 
 h4 {
   text-align: center;
-  color: #5f8868;
-}
+  color: #5f8868; }
 
 #triangle-up h3 {
   line-height: 30px;
@@ -646,8 +653,7 @@ h4 {
   float: left;
   position: relative;
   top: 18px;
-  margin-left: -33px;
-}
+  margin-left: -33px; }
 
 #triangle-up h4 {
   line-height: 10px;
@@ -655,8 +661,7 @@ h4 {
   float: left;
   position: relative;
   top: -11px;
-  margin-left: -20px;
-}
+  margin-left: -20px; }
 
 #triangle-up h4 span {
   line-height: 20px;
@@ -664,18 +669,15 @@ h4 {
   float: left;
   position: relative;
   top: -38px;
-  margin-left: -42px;
-}
+  margin-left: -42px; }
 
 #square h4 {
-  top: 0px;
-}
+  top: 0px; }
 
 #hexagon h4,
 #hexagon h3 {
   line-height: 15px;
-  top: 4px;
-}
+  top: 4px; }
 
 #triangle-up {
   width: 0px;
@@ -683,8 +685,7 @@ h4 {
   border-left: 120px solid transparent;
   border-right: 120px solid transparent;
   border-bottom: 150px solid #d9d9d9;
-  position: relative;
-}
+  position: relative; }
 
 #square {
   width: 140px;
@@ -693,16 +694,19 @@ h4 {
   position: relative;
   padding-top: 10px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   align-items: center;
 }
+=======
+  align-items: center; }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 #hexagon {
   width: 140px;
   height: 107px;
   top: 25px;
   background: #d9d9d9;
-  position: relative;
-}
+  position: relative; }
 
 #hexagon:before {
   content: "";
@@ -713,8 +717,7 @@ h4 {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-bottom: 25px solid #d9d9d9;
-}
+  border-bottom: 25px solid #d9d9d9; }
 
 #hexagon:after {
   content: "";
@@ -725,8 +728,7 @@ h4 {
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 25px solid #d9d9d9;
-}
+  border-top: 25px solid #d9d9d9; }
 
 /* ----------END Shapes with the text----------- */
 /*------------FORM FIELD------------------- */
@@ -746,8 +748,7 @@ input[type=text], select, textarea {
   /* Add a top margin */
   margin-bottom: 16px;
   /* Bottom margin */
-  resize: vertical;
-}
+  resize: vertical; }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -757,13 +758,11 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #c78d05;
-}
+  background-color: #c78d05; }
 
 /* Add a background color and some padding around the form */
 .container {
@@ -771,59 +770,85 @@ input[type=submit]:hover {
   background-color: #d9d9d9;
   padding: 20px;
   margin-top: 60px;
-  /* background-color: #c6a530; */
-}
+  /* background-color: #c6a530; */ }
 
 /*---------------- END FORM field ----------*/
 /*---------------- Grids ----------*/
 .grid-master {
   display: grid;
+<<<<<<< HEAD
   grid-template-areas: "header" "nav" "main" "footer";
 }
+=======
+  grid-template-areas: "header" "nav" "main" "footer"; }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
 
 .grid-image-container2 {
   display: grid;
   grid-template-columns: auto;
   margin: auto;
   float: center;
-  text-align: center;
-}
+  text-align: center; }
 
 .grid-item {
   margin-left: auto;
   margin-right: auto;
   float: center;
-  padding: 10px;
-}
+  padding: 10px; }
 
 @media screen and (min-width: 600px) {
   /* ----------media Contact page - Svetla ----------- */
   .grid-master {
+<<<<<<< HEAD
     display: grid;
   }
+=======
+    display: grid; }
+
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
   .container {
     display: block;
     margin: 0 auto;
     max-width: 60%;
+<<<<<<< HEAD
     height: auto;
   }
   .grid-image-container2 {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+=======
+    height: auto; }
+
+  .grid-image-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
   .grid-item {
     display: grid;
     grid-template-columns: auto;
     margin-top: 1em;
+<<<<<<< HEAD
     padding: 2em;
   }
   /* ---------- END media Contact page - Svetla ----------- */
 }
 
+<<<<<<< HEAD
 /*___________Start Work Page - Alvar ________*/
 .backgroundWork {
   background-color: #666666;
 }
+=======
+=======
+    padding: 2em; }
+
+  /* ---------- END media Contact page - Svetla ----------- */ }
+/*___________Start Work Page - Alvar ________*/
+.backgroundWork {
+  background-color: #666666; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 .work-container {
   display: flex;
@@ -831,23 +856,35 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
   /*margin-left: 10px;*/
+<<<<<<< HEAD
   background-color: transparent;
 }
+=======
+  background-color: transparent; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 .sortiment-text {
   margin-left: 1em;
   margin-right: 1em;
   text-align: left;
+<<<<<<< HEAD
   max-height: 150px;
 }
 
 .sortiment-font {
   margin-left: 1em;
 }
+=======
+  max-height: 150px; }
+
+.sortiment-font {
+  margin-left: 1em; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 .img-fluid {
   max-width: 100%;
   justify-content: center;
+<<<<<<< HEAD
   padding: 10px;
 }
 
@@ -858,22 +895,39 @@ input[type=submit]:hover {
 .flex-intem {
   padding: 10px;
 }
+=======
+  padding: 10px; }
+
+.img-size {
+  height: 100px; }
+
+.flex-intem {
+  padding: 10px; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 @media screen and (max-width: 600px) {
   .work-container {
     display: block;
     flex-direction: column;
+<<<<<<< HEAD
     justify-content: center;
   }
 }
 
+=======
+    justify-content: center; } }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 #slides {
   position: relative;
   height: 150px;
   padding: 0px;
   margin: 0px;
+<<<<<<< HEAD
   list-style-type: none;
 }
+=======
+  list-style-type: none; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 .slide {
   position: absolute;
@@ -886,6 +940,7 @@ input[type=submit]:hover {
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
+<<<<<<< HEAD
   transition: opacity 1s;
 }
 
@@ -898,11 +953,24 @@ input[type=submit]:hover {
   non-essential styles:
   just for appearance; change whatever you want
   */
+=======
+  transition: opacity 1s; }
+
+.showing {
+  opacity: 1;
+  z-index: 2; }
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 .slide {
   font-size: 20px;
   padding: 10px;
   box-sizing: border-box;
   background: #333;
+<<<<<<< HEAD
   color: #fff;
 }
 
@@ -925,6 +993,24 @@ input[type=submit]:hover {
 .slide:nth-of-type(5) {
   background: transparent;
 }
+=======
+  color: #fff; }
+
+.slide:nth-of-type(1) {
+  background: transparent; }
+
+.slide:nth-of-type(2) {
+  background: transparent; }
+
+.slide:nth-of-type(3) {
+  background: transparent; }
+
+.slide:nth-of-type(4) {
+  background: transparent; }
+
+.slide:nth-of-type(5) {
+  background: transparent; }
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 
 @media screen and (max-width: 600px) {
   .slide {
@@ -932,10 +1018,15 @@ input[type=submit]:hover {
     padding: 5px;
     box-sizing: border-box;
     background: #333;
+<<<<<<< HEAD
     color: septenary-color;
   }
 }
 
+=======
+    color: septenary-color; } }
+>>>>>>> 8c932f2f5fe5a8e3e2b616fc7cb333e4cf11a34a
+>>>>>>> 7e2b68c665f3e2b0ea9e11f0319d243580eddf06
 /* ====== FOOTER - Priti ====== */
 footer {
   color: white;
@@ -944,9 +1035,9 @@ footer {
   position: relative;
   bottom: 1em;
   left: 0;
-  right: 0;
-}
+  right: 0; }
 
 .homepage {
-  position: absolute;
-}
+  position: absolute; }
+
+/*# sourceMappingURL=master.css.map */
