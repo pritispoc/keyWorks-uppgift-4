@@ -378,6 +378,21 @@ p {
   text-align: justify;
 }
 
+.heximg {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.triangleimg {
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.circleimg {
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
 .box {
   background-color: #d9d9d9;
   color: white;
@@ -463,37 +478,27 @@ p {
 }
 /* ====== End -Home page related by Priti====== */
 /* ====== Start - About page related by Priti====== */
-#hexagon {
-  width: 100vh;
-  height: 55vh;
-  background: #d9d9d9;
-  position: absolute;
+/* grid definition class related to about  page*/
+.about-staff-grid {
+  display: grid;
 }
 
-#hexagon:before {
-  content: "";
-  position: absolute;
-  top: -25vh;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50vh solid transparent;
-  border-right: 50vh solid transparent;
-  border-bottom: 25vh solid lightgrey;
+.img-centered-stack {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
-#hexagon:after {
-  content: "";
-  position: absolute;
-  bottom: -25vh;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50vh solid transparent;
-  border-right: 50vh solid transparent;
-  border-top: 25vh solid lightgrey;
+.about-grid-item {
+  text-align: justify;
 }
 
+@media screen and (min-width: 600px) {
+  .about-col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /* ====== End About page related by Priti====== */
 /* ====== NAVBAR - Alvar ====== */
 /* Add a black background color to the top navigation */
@@ -880,8 +885,12 @@ footer {
   color: white;
   text-align: center;
   padding: 1em;
-  position: absolute;
+  position: relative;
   bottom: 1em;
   left: 0;
   right: 0;
+}
+
+.homepage {
+  position: absolute;
 }

@@ -4,8 +4,13 @@ footer {
   color: $septenary-color;
   text-align: center;
   padding: 1em;
-  position: absolute;
+  position: relative;
   bottom: 1em;
   left: 0;
   right: 0;
+}
+
+.homepage
+{
+  position: absolute;
 }
