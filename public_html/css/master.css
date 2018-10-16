@@ -69,12 +69,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-<<<<<<< HEAD
   /* 2 */ }
-=======
-  /* 2 */
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -383,12 +378,7 @@ p {
   to {
     -webkit-transform: rotate(359deg); } }
 #colorText {
-<<<<<<< HEAD
   animation: example1 10s infinite linear; }
-=======
-  animation: example1 10s infinite linear;
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
 @keyframes example1 {
   0% {
@@ -459,13 +449,7 @@ p {
     display: block; }
 
   .topnav {
-<<<<<<< HEAD
     flex-basis: 300px; } }
-=======
-    flex-basis: 300px;
-  }
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 @media screen and (max-width: 600px) {
   /*.topnav.responsive {position: relative;}*/
   .topnav.responsive {
@@ -490,12 +474,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   margin-right: 0; }
-=======
-  margin-right: 0;
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
 .container {
   display: -webkit-flex;
@@ -504,12 +483,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   margin-right: 0; }
-=======
-  margin-right: 0;
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
 header ul li {
   display: inline; }
@@ -529,19 +503,10 @@ header ul li a {
 
 @media screen and (max-width: 600px) {
   .header-container {
-<<<<<<< HEAD
     flex-direction: row; }
 
   .logo {
     align-self: flex-start; }
-=======
-    flex-direction: row;
-  }
-
-  .logo {
-    align-self: flex-start;
-  }
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
   .img-logo {
     width: 50%; }
@@ -554,20 +519,10 @@ header ul li a {
 
   header ul li a {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column; }
 
   .item {
     flex-grow: 1; } }
-=======
-    flex-direction: column;
-  }
-
-  .item {
-    flex-grow: 1;
-  }
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 /* ====== MAIN ====== */
 /*___________Start Contact Page - Svetla ________*/
 .backgroundContact {
@@ -641,12 +596,7 @@ h4 {
   position: relative;
   padding-top: 10px;
   margin-bottom: 20px;
-<<<<<<< HEAD
   align-items: center; }
-=======
-  align-items: center;
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 
 #hexagon {
   width: 140px;
@@ -759,16 +709,10 @@ input[type=submit]:hover {
     margin-top: 1em;
     padding: 2em; }
 
-<<<<<<< HEAD
   /* ---------- END media Contact page - Svetla ----------- */ }
-=======
-  /* ---------- END media Contact page - Svetla ----------- */
-}
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 /*___________Start Work Page - Alvar ________*/
 .backgroundWork {
-  background-color: #666666;
-}
+  background-color: #666666; }
 
 .work-container {
   display: flex;
@@ -776,48 +720,39 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
   /*margin-left: 10px;*/
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 .sortiment-text {
   margin-left: 1em;
   margin-right: 1em;
   text-align: left;
-  max-height: 150px;
-}
+  max-height: 150px; }
 
 .sortiment-font {
-  margin-left: 1em;
-}
+  margin-left: 1em; }
 
 .img-fluid {
   max-width: 100%;
   justify-content: center;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .img-size {
-  height: 100px;
-}
+  height: 100px; }
 
 .flex-intem {
-  padding: 10px;
-}
+  padding: 10px; }
 
 @media screen and (max-width: 600px) {
   .work-container {
     display: block;
     flex-direction: column;
-    justify-content: center;
-  }
-}
+    justify-content: center; } }
 #slides {
   position: relative;
   height: 150px;
   padding: 0px;
   margin: 0px;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .slide {
   position: absolute;
@@ -830,13 +765,11 @@ input[type=submit]:hover {
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
-  transition: opacity 1s;
-}
+  transition: opacity 1s; }
 
 .showing {
   opacity: 1;
-  z-index: 2;
-}
+  z-index: 2; }
 
 /*
 non-essential styles:
@@ -847,11 +780,9 @@ just for appearance; change whatever you want
   padding: 10px;
   box-sizing: border-box;
   background: #333;
-  color: #fff;
-}
+  color: #fff; }
 
 .slide:nth-of-type(1) {
-<<<<<<< HEAD
   background: transparent; }
 
 .slide:nth-of-type(2) {
@@ -873,27 +804,6 @@ just for appearance; change whatever you want
     box-sizing: border-box;
     background: #333;
     color: septenary-color; } }
-=======
-  background: red;
-}
-
-.slide:nth-of-type(2) {
-  background: orange;
-}
-
-.slide:nth-of-type(3) {
-  background: green;
-}
-
-.slide:nth-of-type(4) {
-  background: blue;
-}
-
-.slide:nth-of-type(5) {
-  background: purple;
-}
-
->>>>>>> 89b5fe661f3e6e57331eecbd8066c46ae0d0b2d6
 /* ====== FOOTER - Priti ====== */
 footer {
   color: white;
