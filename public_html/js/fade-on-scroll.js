@@ -1,26 +1,25 @@
 /* This is the file where we have all javascript code. Each function should have a comment with the name of the author and purpose of the function*/
 //-----Priti------
-function mOver() {
+// this dom handling function is triggered when we roll the mouse over 'p' elements and toggles the shapes.
+$(document).ready(function(){
+    $("p").mouseover(function(){
+        var x = document.getElementById("firstShape");
+        if (x.className === "firstShape") {
+            x.className = "triangle1  loading";
+        } else {
+            x.className = "box loading ";
+        }
+    });
+    $("p").mouseout(function(){
+        var x = document.getElementById("firstShape");
+        if (x.className === "firstShape") {
+            x.className = "box  loading";
+        } else {
+            x.className = "triangle1 loading ";
+        }
+    });
+});
 
-       var x = document.getElementById("firstShape");
-      if (x.className === "firstShape") {
-           x.className = "triangle1 loading";
-       } else {
-           x.className = "box loading";
-       }
-   }
-
-
-
-function mOut() {
-
-   var x = document.getElementById("firstShape");
-  if (x.className === "firstShape") {
-       x.className = "box loading";
-   } else {
-       x.className = "triangle1 loading";
-   }
-}
 //-----Priti------
 
   // --------Menu Alvar------
