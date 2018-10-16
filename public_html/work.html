@@ -18,19 +18,8 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-  <script>
-        var slides = document.querySelectorAll('#slides .slide');
-        var currentSlide = 0;
-        var slideInterval = setInterval(nextSlide,2000);
-        function nextSlide(){
-        slides[currentSlide].className = 'slide';
-        currentSlide = (currentSlide+1)%slides.length;
-        slides[currentSlide].className = 'slide showing';
-        }   
-  </script>
-
    </head>
-<body id="body-work">
+<body class="backgroundWork">
   <header class="header-container">  
     <div class="logo">
       <a href=index.html title="Home page">
@@ -38,18 +27,18 @@
     </div> 
     <div class="topnav" id="myTopnav">
         <a href=index.html class="animted" id="home">Home</a>
-        <a href=work.html class="animated" id="work">Work</a>
         <a href=contact.html class="animated" id="contact">Contact</a>
         <a href=about.html class="animated" id="about">About</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
     </div>
-    <style>.topnav a:second-child {display: none;}</style>  
+    <!--<a href=work.html class="animated" id="work">Work</a>-->
+    <!--<style>.topnav a:second-child {display: none;}</style>-->  
   </header>
-  <main id='main'>
+  <main id='work-main'>
     <h1>Hello Work Page</h1>
     <!--photos container-->
-    <div class="container">
+    <div class="work-container">
         <div class="flex-item">
             <img src="img/apple-computer-decor-326502.jpg" alt="image of a dessert" class="img-fluid">
             <!--<h3 class="sortiment-font">Bakelser</h3>-->
@@ -67,49 +56,7 @@
             <p class="sortiment-text">Våra bakelser är alltid färska och bakade samma dag som de serveras. Vi har alltid ett stort sortiment med olika smaker för att passa det du är sugen på just idag.</p>
         </div>
     </div> <!--container> -->
-    <style>
-        body {
-            background-color: senary-color;
-        }
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            /*margin-left: 10px;*/
-            background-color: transparent;
-            }
-        .sortiment-text {
-            margin-left: 1em;
-            margin-right: 1em;
-            text-align: left;
-            max-height: 150px;
-        }
-        .sortiment-font {
-            margin-left: 1em;
-        }
-        .img-fluid {
-           max-width: 100%;
-           justify-content: center;
-           padding: 10px;
-        }
-
-        .img-size {
-            height: 100px;
-        }
-        .flex-intem {
-            padding: 10px;
-        }
-
-        @media screen and (max-width : 600px) {
-            .container {
-            display: block;
-            flex-direction: column;
-            justify-content: center;
-        }  
-
-        }
-    </style> 
+  
     <!--slider-->
     <ul id="slides">
             <li class="slide">Slide 1</li>
@@ -119,64 +66,6 @@
             <li class="slide">Slide 5</li>
         </ul>
     <!--sliders-->
-    <style>
-    #slides{
-	position: relative;
-	height: 150px;
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
-    }
-
-    .slide{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	z-index: 1;
-
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-	-o-transition: opacity 1s;
-	transition: opacity 1s;
-    }
-
-    .showing{
-	opacity: 1;
-	z-index: 2;
-    }
-
-    /*
-    non-essential styles:
-    just for appearance; change whatever you want
-    */
-
-    .slide{
-        font-size: 40px;
-        padding: 40px;
-        box-sizing: border-box;
-        background: #333;
-        color: #fff;
-    }
-
-    .slide:nth-of-type(1){
-        background: red;
-    }
-    .slide:nth-of-type(2){
-        background: orange;
-    }
-    .slide:nth-of-type(3){
-        background: green;
-    }
-    .slide:nth-of-type(4){
-        background: blue;
-    }
-    .slide:nth-of-type(5){
-        background: purple;
-    }
-    </style>
     
   </main>
   
