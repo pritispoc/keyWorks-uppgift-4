@@ -142,17 +142,19 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
+  margin-left: 45%;
   background-color: $tertiary-color;
   color: $septenary-color;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: $actronary-color;
+  background-color: $quinary-color;
 }
 
 /* Add a background color and some padding around the form */
@@ -204,8 +206,12 @@ padding: 10px;
 
 
   .container {
-    display: grid;
-    grid-template-columns: auto;
+    // display: grid;
+    // grid-template-columns: auto;
+    display: block;
+       margin: 0 auto;
+       max-width: 60%;
+       height: auto;
   }
 
   .grid-image-container2 {

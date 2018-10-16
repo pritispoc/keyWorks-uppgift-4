@@ -1,6 +1,7 @@
 /* This is the file where we have all javascript code. Each function should have a comment with the name of the author and purpose of the function*/
 //-----Priti------
 // this dom handling function is triggered when we roll the mouse over 'p' elements and toggles the shapes.
+
 $(document).ready(function(){
     $("p").mouseover(function(){
         var x = document.getElementById("firstShape");
@@ -19,6 +20,7 @@ $(document).ready(function(){
         }
     });
 });
+
 
 //-----Priti------
 
