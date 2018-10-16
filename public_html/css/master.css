@@ -671,6 +671,10 @@ header ul li a {
 }
 /* ====== MAIN ====== */
 /*___________Start Contact Page - Svetla ________*/
+.backgroundContact {
+  background-color: #c78d05;
+}
+
 #map {
   width: 100%;
   height: 500px;
