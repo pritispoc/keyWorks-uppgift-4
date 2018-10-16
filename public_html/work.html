@@ -14,32 +14,37 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
+  <!--animate Alvar-->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-  <script>function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-        
-    }
-    </script>
+  <script>
+        var slides = document.querySelectorAll('#slides .slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide,2000);
+        function nextSlide(){
+        slides[currentSlide].className = 'slide';
+        currentSlide = (currentSlide+1)%slides.length;
+        slides[currentSlide].className = 'slide showing';
+        }   
+  </script>
+
    </head>
-<body id="body">
+<body id="body-work">
   <header class="header-container">  
     <div class="logo">
       <a href=index.html title="Home page">
         <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
     </div> 
     <div class="topnav" id="myTopnav">
-        <a href=index.html class="active">Home</a>
-        <a href="#news">Work</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href=index.html class="animted" id="home">Home</a>
+        <a href=work.html class="animated" id="work">Work</a>
+        <a href=contact.html class="animated" id="contact">Contact</a>
+        <a href=about.html class="animated" id="about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
-    </div>  
+    </div>
+    <style>.topnav a:second-child {display: none;}</style>  
   </header>
   <main id='main'>
     <h1>Hello Work Page</h1>
@@ -63,6 +68,9 @@
         </div>
     </div> <!--container> -->
     <style>
+        body {
+            background-color: senary-color;
+        }
         .container {
             display: flex;
             flex-direction: row;
@@ -98,59 +106,83 @@
             display: block;
             flex-direction: column;
             justify-content: center;
-        }
-            
+        }  
+
         }
     </style> 
     <!--slider-->
-    <ul id="sliders">
-        <li class="slide showing">Silde 1</li>
-        <li class="slide">Slide 2</li>
-        <li class="slide">Slide 3</li>
-        <li class="slide">Slide 4</li>
-        <li class="slide">Slide 5</li>
-    </ul>
+    <ul id="slides">
+            <li class="slide">Slide 1</li>
+            <li class="slide showing">Slide 2</li>
+            <li class="slide">Slide 3</li>
+            <li class="slide">Slide 4</li>
+            <li class="slide">Slide 5</li>
+        </ul>
+    <!--sliders-->
     <style>
-    #slides {
-        position: relative;
-        height: 150px;
-        padding: 0px;
-        margin: 0px;
-        list-style-type: none;
+    #slides{
+	position: relative;
+	height: 150px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
     }
-    .slide {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        z-index: 1;
-        -webkit-transition: opacity ls;
-        -moz-transition: opacity ls;
-        -o-transition: opacity ls;
-        transition: opacity ls;
+
+    .slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
     }
+
     .showing{
-        opacity: 1;
-        z-index: 2;
+	opacity: 1;
+	z-index: 2;
     }
-    
-    .slide {
+
+    /*
+    non-essential styles:
+    just for appearance; change whatever you want
+    */
+
+    .slide{
         font-size: 40px;
         padding: 40px;
         box-sizing: border-box;
         background: #333;
         color: #fff;
-        
     }
 
+    .slide:nth-of-type(1){
+        background: red;
+    }
+    .slide:nth-of-type(2){
+        background: orange;
+    }
+    .slide:nth-of-type(3){
+        background: green;
+    }
+    .slide:nth-of-type(4){
+        background: blue;
+    }
+    .slide:nth-of-type(5){
+        background: purple;
+    }
     </style>
+    
   </main>
-  <!--
+  
   <footer>
    <small> designed with care by keyWorks. abc Copyright &copy; 2018 </small>
-  </footer>  -->
+  </footer>
   
 </body>
 </html>
