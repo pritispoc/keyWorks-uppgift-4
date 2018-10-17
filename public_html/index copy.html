@@ -18,7 +18,7 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
-  <link rel="stylesheet" href="css/animations.css">
+
    </head>
 <body>
   <header class="header-container">
@@ -45,20 +45,8 @@
 
     <h1 id="colorText">keyWorks open new doors for You!</h1>
 
-    <div id="textin" class="slideUp">
-        <p> We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
-        </div>
-        
-      
-               <div id="wrapper">
-                <div>
-                  <img id="key" class="fadeOutLeft key" src="img/logo_key.svg"/>
-                </div>
-                <div>
-                  <img id="works" class="fadeOutRight works" src="img/logo_works.svg"/>
-                </div>
-      
-              </div> <!--close wrapper -->
+    <p> We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
+
 
   </main>
 
@@ -66,23 +54,5 @@
    <small> designed with care by keyWorks <sup>TM</sup>. &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
   </footer>
 
-    <script>
-      $(window).scroll(function() {
-        $('#textin').each(function(){
-        var imagePos = $(this).offset().top;
-    
-        var topOfWindow = $(window).scrollTop();
-          if (imagePos < topOfWindow+400) {
-            $(this).addClass("slideUp");
-          }
-        });
-      });
-    </script>
-    <script>
-
-      $('#textin').click(function() {
-        $(this).addClass("slideUp");
-      });
-    </script>
 </body>
 </html>
