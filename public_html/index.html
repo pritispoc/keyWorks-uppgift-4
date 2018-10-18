@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans" rel="stylesheet">
   <!--animate Alvar-->
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-  <script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
   <link rel="stylesheet" href="css/animations.css">
-   </head>
+</head>
+
 <body>
   <header class="header-container">
 
@@ -28,15 +26,19 @@
         <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
     </div>
     <div class="topnav" id="myTopnav">
-          <a href=index.html class="animted" id="home">Home</a>
-          <a href=work.html class="animated" id="work">Work</a>
-          <a href=contact.html class="animated" id="contact">Contact</a>
-          <a href=about.html class="animated" id="about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
+      <a href=index.html class="animted" id="home">Home</a>
+      <a href=work.html class="animated" id="work">Work</a>
+      <a href=contact.html class="animated" id="contact">Contact</a>
+      <a href=about.html class="animated" id="about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
     </div>
-    <style>.topnav a:first-child {display: none;}</style>
-  </div>
+    <style>
+      .topnav a:first-child {
+        display: none;
+      }
+    </style>
+    </div>
 
   </header>
   <main>
@@ -46,43 +48,44 @@
     <h1 id="colorText">keyWorks open new doors for You!</h1>
 
     <div id="textin" class="slideUp">
-        <p>  We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
-        </div>
+      <p> We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
+    </div>
 
 
-               <div id="wrapper">
-                <div>
-                  <img id="key" class="fadeOutLeft key" src="img/logo_key.svg"/>
-                </div>
-                <div>
-                  <img id="works" class="fadeOutRight works" src="img/logo_works.svg"/>
-                </div>
+    <div id="wrapper">
+      <div>
+        <img id="key" class="fadeOutLeft key" src="img/logo_key.svg" />
+      </div>
+      <div>
+        <img id="works" class="fadeOutRight works" src="img/logo_works.svg" />
+      </div>
 
-              </div> <!--close wrapper -->
+    </div>
+    <!--close wrapper -->
 
   </main>
 
   <footer class="homepage">
-   <small> designed with care by keyWorks <sup>TM</sup>. &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
+    <small> designed with care by keyWorks <sup>TM</sup>. &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
   </footer>
 
-    <script>
-      $(window).scroll(function() {
-        $('#textin').each(function(){
+  <script>
+    $(window).scroll(function() {
+      $('#textin').each(function() {
         var imagePos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-          if (imagePos < topOfWindow+400) {
-            $(this).addClass("slideUp");
-          }
-        });
+        if (imagePos < topOfWindow + 400) {
+          $(this).addClass("slideUp");
+        }
       });
-    </script>
-    <script>
-
-      $('#textin').click(function() {
-        $(this).addClass("slideUp");
-      });
-    </script>
+    });
+  </script>
+  <script>
+    $('#textin').click(function() {
+      $(this).addClass("slideUp");
+    });
+  </script>
 </body>
+
 </html>
