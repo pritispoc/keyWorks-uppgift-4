@@ -845,18 +845,18 @@ h4 {
 }
 
 #square h4 {
-  top: 0px;
+  top: 0;
 }
 
-#hexagon h4,
-#hexagon h3 {
+#hexagon h3,
+#hexagon h4 {
   line-height: 15px;
   top: 4px;
 }
 
 #triangle-up {
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-left: 120px solid transparent;
   border-right: 120px solid transparent;
   border-bottom: 150px solid #d9d9d9;
@@ -908,7 +908,9 @@ h4 {
 /* ----------END Shapes with the text----------- */
 /*------------FORM FIELD------------------- */
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   /* Full width */
   padding: 12px;
@@ -922,6 +924,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   /* Add a top margin */
   margin-bottom: 16px;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
   /* Bottom margin */
   resize: vertical;
 }
@@ -955,7 +958,7 @@ input[type=submit]:hover {
 /*---------------- Grids ----------*/
 .grid-master {
   display: grid;
-  grid-template-areas: "header" "nav" "main" "footer";
+  grid-template-areas: "header" "nav" "main" "footer";
 }
 
 .grid-image-container2 {
@@ -1050,15 +1053,15 @@ input[type=submit]:hover {
 #slides {
   position: relative;
   height: 150px;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
 .slide {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   opacity: 0;

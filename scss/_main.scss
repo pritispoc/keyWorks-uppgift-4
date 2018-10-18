@@ -1,146 +1,147 @@
 /* ====== MAIN ====== */
 /*___________Start Contact Page - Svetla ________*/
+
 .backgroundContact {
   background-color: $quinary-color;
 }
 
 #map {
-  width:100%;
-  height:500px;
-  }
-
-  a[href^="tel:"] {
-    color: $senary-color;
-    text-decoration: none;
-  }
-
-  a[href^="mailto:"] {
-    color: $senary-color;
-    text-decoration: none;
-  }  
-
-  /* ----------Shapes with the text----------- */
-
-
-  h3 {
-    text-align: center;
-    color: $secondary-color;
-
-  }
-  h4 {
-    text-align: center;
-    color: $tertiary-color;
-
-  }
-
-  #triangle-up h3 {
-
-    line-height:30px;
-    color: $secondary-color;
-    float: left;
-    position:relative;
-    top: 18px;
-    margin-left: -33px;
-  }
-
-  #triangle-up h4 {
-
-    line-height: 10px;
-    color: $tertiary-color;
-    float: left;
-    position:relative;
-    top: -11px;
-    margin-left: -20px;
-  }
-
-  #triangle-up h4 span {
-
-    line-height:20px;
-    color: $senary-color;
-    float: left;
-    position:relative;
-    top: -38px;
-    margin-left: -42px;
-  }
-
-  #square h4 {
-    top: 0px;
-  }
-
-  #hexagon h4,
-  #hexagon h3 {
-    line-height: 15px;
-    top: 4px;
-  }
-
-  #triangle-up {
-    width: 0px;
-    height: 0px;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-    border-bottom: 150px solid $primary-color;
-    position: relative;
-  }
-
-
-  #square {
-    width: 140px;
-    height: 140px;
-    background: $primary-color;
-    position: relative;
-    padding-top: 10px;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-
-  #hexagon {
-    width: 140px;
-    height: 107px;
-    top: 25px;
-    background: $primary-color;
-    position: relative;
-  }
-  #hexagon:before {
-    content: "";
-    position: absolute;
-    top: -24px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 25px solid $primary-color;
-  }
-  #hexagon:after {
-    content: "";
-    position: absolute;
-    bottom: -24px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-top: 25px solid $primary-color;
-  }
-
-
-  /* ----------END Shapes with the text----------- */
-
-  /*------------FORM FIELD------------------- */
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid $senary-color; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  height: 500px;
 }
 
+a[href^="tel:"] {
+  color: $senary-color;
+  text-decoration: none;
+}
+
+a[href^="mailto:"] {
+  color: $senary-color;
+  text-decoration: none;
+}
+/* ----------Shapes with the text----------- */
+h3 {
+  text-align: center;
+  color: $secondary-color;
+}
+
+h4 {
+  text-align: center;
+  color: $tertiary-color;
+}
+
+#triangle-up h3 {
+  line-height: 30px;
+  color: $secondary-color;
+  float: left;
+  position: relative;
+  top: 18px;
+  margin-left: -33px;
+}
+
+#triangle-up h4 {
+  line-height: 10px;
+  color: $tertiary-color;
+  float: left;
+  position: relative;
+  top: -11px;
+  margin-left: -20px;
+}
+
+#triangle-up h4 span {
+  line-height: 20px;
+  color: $senary-color;
+  float: left;
+  position: relative;
+  top: -38px;
+  margin-left: -42px;
+}
+
+#square h4 {
+  top: 0;
+}
+
+#hexagon h3,
+#hexagon h4 {
+  line-height: 15px;
+  top: 4px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 150px solid $primary-color;
+  position: relative;
+}
+
+#square {
+  width: 140px;
+  height: 140px;
+  background: $primary-color;
+  position: relative;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#hexagon {
+  width: 140px;
+  height: 107px;
+  top: 25px;
+  background: $primary-color;
+  position: relative;
+}
+
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 25px solid $primary-color;
+}
+
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 25px solid $primary-color;
+}
+/* ----------END Shapes with the text----------- */
+/*------------FORM FIELD------------------- */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid $senary-color;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  /* Bottom margin */
+  resize: vertical;
+}
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   margin-left: 45%;
   background-color: $tertiary-color;
@@ -149,15 +150,14 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: $quinary-color;
 }
-
 /* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   background-color: $primary-color;
@@ -165,53 +165,40 @@ input[type=submit]:hover {
   margin-top: 60px;
   /* background-color: #c6a530; */
 }
-
 /*---------------- END FORM field ----------*/
-
-
 /*---------------- Grids ----------*/
-
 .grid-master {
-display: grid;
-grid-template-areas:
-"header"
-"nav"
-"main"
-"footer"
+  display: grid;
+  grid-template-areas: "header" "nav" "main" "footer";
 }
 
-
 .grid-image-container2 {
-display: grid;
-grid-template-columns: auto;
-margin: auto;
-float: center;
-text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  float: center;
+  text-align: center;
 }
 
 .grid-item {
-margin-left: auto;
-margin-right: auto;
-float: center;
-padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  padding: 10px;
 }
-
-
-
-  @media screen and (min-width: 600px) {
-    /* ----------media Contact page - Svetla ----------- */
-    .grid-master {
-      display: grid;
+@media screen and (min-width: 600px) {
+  /* ----------media Contact page - Svetla ----------- */
+  .grid-master {
+    display: grid;
   }
-
 
   .container {
     // display: grid;
     // grid-template-columns: auto;
     display: block;
-       margin: 0 auto;
-       max-width: 60%;
-       height: auto;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
   }
 
   .grid-image-container2 {
@@ -219,26 +206,22 @@ padding: 10px;
     grid-template-columns: auto auto auto;
   }
 
-
-
   .grid-item {
     display: grid;
     grid-template-columns: auto;
     margin-top: 1em;
     padding: 2em;
   }
-    /* ---------- END media Contact page - Svetla ----------- */
+  /* ---------- END media Contact page - Svetla ----------- */
 }
-
 //_____________________________________________
 /*___________Start Work Page - Alvar ________*/
 //_____________________________________________
+
 .backgroundWork {
   background-color: $senary-color;
 }
-
 //----work-container Style---------
-
 .work-container {
   display: flex;
   flex-direction: row;
@@ -248,77 +231,76 @@ padding: 10px;
   background-color: transparent;
   margin-top: 0px;
   margin-left: 10px;
-  
-  }
+
+}
+
 .sortiment-text {
   margin-left: 1em;
   margin-right: 1em;
   text-align: left;
   max-height: 70%;
 }
+
 .sortiment-font {
   margin-left: 1em;
 }
+
 .work-img-fluid {
- max-width: 100%;
- justify-content: center;
- padding: 10px;
- height: 250px;
+  max-width: 100%;
+  justify-content: center;
+  padding: 10px;
+  height: 250px;
 }
 
 .img-size {
   height: 100px;
 }
+
 .flex-item {
   padding: 5px;
   //margin: 10px;
 }
-
 @media screen and (max-width : 600px) {
   .work-container {
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-}  
-
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 //---end---work-container
-
 // ---Slider Style---
-#slides{
-	position: relative;
-	height: 150px;
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
+
+#slides {
+  position: relative;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
-.slide{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	z-index: 1;
-
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-	-o-transition: opacity 1s;
-	transition: opacity 1s;
+.slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
-.showing{
-	opacity: 1;
-	z-index: 2;
+.showing {
+  opacity: 1;
+  z-index: 2;
 }
-
-  /*
+/*
   non-essential styles:
   just for appearance; change whatever you want
   */
-
-.slide{
+.slide {
   font-size: 20px;
   padding: 10px;
   box-sizing: border-box;
@@ -326,31 +308,32 @@ padding: 10px;
   color: #fff;
 }
 
-.slide:nth-of-type(1){
-  background: transparent;
-}
-.slide:nth-of-type(2){
-  background: transparent;
-}
-.slide:nth-of-type(3){
-  background: transparent;
-}
-.slide:nth-of-type(4){
-  background: transparent;
-}
-.slide:nth-of-type(5){
+.slide:nth-of-type(1) {
   background: transparent;
 }
 
+.slide:nth-of-type(2) {
+  background: transparent;
+}
+
+.slide:nth-of-type(3) {
+  background: transparent;
+}
+
+.slide:nth-of-type(4) {
+  background: transparent;
+}
+
+.slide:nth-of-type(5) {
+  background: transparent;
+}
 @media screen and (max-width : 600px) {
-  .slide{
+  .slide {
     font-size: 15px;
     padding: 5px;
     box-sizing: border-box;
     background: #333;
     color: septenary-color;
   }
-
 }
-
 //--end--slide Style---
