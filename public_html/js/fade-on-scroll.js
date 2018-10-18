@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 //-----Priti------
 
-  // --------Menu Alvar------
+// --------Menu Alvar------
   function myFunction() {
     var x = document.getElementById("myTopnav");
     // elem menu
@@ -80,6 +80,7 @@ $(document).ready(function() {
 //-----------fin carousell
 
 // End Alvar
+
 // =================== Contact page Google Maps - Svetla =========
 function myMap() {
     var malmo = {lat: 55.611293, lng: 12.994258};

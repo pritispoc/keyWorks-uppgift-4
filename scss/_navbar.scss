@@ -1,4 +1,10 @@
 /* ====== NAVBAR - Alvar ====== */
+#work-page {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: $primary-color;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
