@@ -57,10 +57,15 @@ var currentSlide = 0;
 
 var slideInterval = setInterval(nextSlide,5000);
 function nextSlide(){
-slides[currentSlide].className = 'slide';
-currentSlide = (currentSlide+1)%slides.length;
-slides[currentSlide].className = 'slide showing';
-}   
+    if (slides[currentSlide] === undefined) {
+    console.log("indefinido");
+    }else{
+        slides[currentSlide].className = 'slide';
+        currentSlide = (currentSlide+1)%slides.length;
+        slides[currentSlide].className = 'slide showing';
+    }
+  
+}
 //---End Script
 
 // End Alvar
