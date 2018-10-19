@@ -59,7 +59,7 @@ function nextSlide(){
 slides[currentSlide].className = 'slide';
 currentSlide = (currentSlide+1)%slides.length;
 slides[currentSlide].className = 'slide showing';
-}   
+}
 //---End Script
 
 
@@ -95,3 +95,24 @@ function myMap() {
     });
 }
     // =================== END Contact page Google Maps - Svetla =========
+
+// =============== Home page text slide up - Svetla =========
+
+    $(window).scroll(function() {
+      $('#textin').each(function() {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 400) {
+          $(this).addClass("slideUp");
+        }
+      });
+
+
+
+    $('#textin').click(function() {
+      $(this).addClass("slideUp");
+    });
+
+
+  // =============== END Home page text slide up - Svetla =======
