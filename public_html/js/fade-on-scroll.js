@@ -54,30 +54,25 @@ $(document).ready(function(){
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
+
 var slideInterval = setInterval(nextSlide,5000);
 function nextSlide(){
+<<<<<<< HEAD
 slides[currentSlide].className = 'slide';
 currentSlide = (currentSlide+1)%slides.length;
 slides[currentSlide].className = 'slide showing';
+=======
+    if (slides[currentSlide] === undefined) {
+    console.log("indefinido");
+    }else{
+        slides[currentSlide].className = 'slide';
+        currentSlide = (currentSlide+1)%slides.length;
+        slides[currentSlide].className = 'slide showing';
+    }
+  
+>>>>>>> 0f85ec708b00c4cfc1dfdcb02aa0cb04ec1282ae
 }
 //---End Script
-
-
-//---carrousell---------------
-/*
-$(document).ready(function() {
-  $(".testimonial-carousel").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    arrows: true,
-    prevArrow: $(".testimonial-carousel-controls .prev"),
-    nextArrow: $(".testimonial-carousel-controls .next")
-  });
-});
-*/
-//-----------fin carousell
 
 // End Alvar
 
