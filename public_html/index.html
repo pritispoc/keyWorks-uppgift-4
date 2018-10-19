@@ -15,7 +15,7 @@
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/fade-on-scroll.js" defer></script>
-  <link rel="stylesheet" href="css/animations.css">
+
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 
     <div class="logo">
       <a href=index.html title="Home page">
-        <img src="img/keyworkslogo.png" class="img-logo" title="logoKeyWorks"></a>
+        <img src="img/keyworkslogo.png" alt="keyworkslogo" class="img-logo" title="logoKeyWorks"></a>
     </div>
     <div class="topnav" id="myTopnav">
       <a href=index.html class="animted" id="home">Home</a>
@@ -44,15 +44,15 @@
   <main>
     <div class="box loading" id="firstShape"> &nbsp;
     </div>
-    
+
     <h1 id="colorText">keyWorks open new doors for You!</h1>
 
     <div id="wrapper">
-    <div id="textin" class="slideUp">
-      <p> We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
-    </div>
+      <div id="textin" class="slideUp">
+        <p> We at keyWorks, focus on presenting your websites with top quality designs, user experience, and innovative ideas. <br>Our websites are trendy, responsive and SEO ready with a mobile-first approach. </p>
+      </div>
 
-    
+
       <div>
         <img id="key" class="fadeOutLeft key" src="img/logo_key.svg" />
       </div>
@@ -64,11 +64,13 @@
     <!--close wrapper -->
 
   </main>
-  <div>
+
   <footer class="homepage">
-    <small> designed with care by keyWorks <sup>TM</sup>. &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
+    <div>
+      <small> designed with care by keyWorks <sup>TM</sup>. &nbsp;&nbsp;&nbsp; Copyright &copy; 2018 </small>
+    </div>
   </footer>
-</div>
+
   <script>
     $(window).scroll(function() {
       $('#textin').each(function() {
