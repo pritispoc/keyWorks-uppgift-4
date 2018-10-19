@@ -54,6 +54,7 @@ $(document).ready(function(){
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
+
 var slideInterval = setInterval(nextSlide,5000);
 function nextSlide(){
 slides[currentSlide].className = 'slide';
@@ -61,23 +62,6 @@ currentSlide = (currentSlide+1)%slides.length;
 slides[currentSlide].className = 'slide showing';
 }   
 //---End Script
-
-
-//---carrousell---------------
-/*
-$(document).ready(function() {
-  $(".testimonial-carousel").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    arrows: true,
-    prevArrow: $(".testimonial-carousel-controls .prev"),
-    nextArrow: $(".testimonial-carousel-controls .next")
-  });
-});
-*/
-//-----------fin carousell
 
 // End Alvar
 
