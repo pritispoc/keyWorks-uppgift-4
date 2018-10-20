@@ -856,24 +856,22 @@ input[type=submit]:hover {
 .work-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
-  /*margin-left: 10px;*/
   background-color: transparent;
   margin-top: 0px;
-  margin-left: 10px; }
+  margin-left: 0px; }
 
 .sortiment-text {
   margin-left: 1em;
   margin-right: 1em;
-  text-align: left;
-  max-height: 70%; }
+  text-align: left; }
 
 .sortiment-font {
   margin-left: 1em; }
 
 .work-img-fluid {
-  max-width: 100%;
+  width: 100%;
   justify-content: center;
   padding: 10px;
   height: 250px; }
@@ -882,7 +880,7 @@ input[type=submit]:hover {
   height: 100px; }
 
 .flex-item {
-  padding: 5px; }
+  margin: 0.7em; }
 
 @media screen and (max-width: 600px) {
   .work-container {
@@ -918,7 +916,6 @@ input[type=submit]:hover {
   just for appearance; change whatever you want
   */
 .slide {
-  font-size: 20px;
   padding: 10px;
   box-sizing: border-box;
   background: #333;
